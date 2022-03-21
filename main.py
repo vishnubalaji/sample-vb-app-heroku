@@ -22,3 +22,4 @@ def message():
 @app.post("/sensors")
 def sensor_status(sensors: UltrasonicSensors):
     print(sensors)
+    return "POST is a success"
